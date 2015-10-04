@@ -7,16 +7,17 @@
 	<body>
 		<div>
 			<h1>Shaylee Hansen's Blog</h1>
-
+                         
 		</div>
 
 		<div>
-			<h2>My first post</h2>
-		</div>
+         {% for post in posts %}
+               <div>
+                  <p>published: {{ post.published_date }}</p>
+       		  <h1><a href="">{{ post.title }}</a></h1>
+                  <p>{{ post.text|linebreaks }}</p>
+   	       </div>
+          {% endfor %}
 
-		<div>
-			<h2>Posts</h2>
-		</div>
 
 
-</html>
