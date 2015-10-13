@@ -5,10 +5,18 @@ h1 a {
 }
 body {
     padding-left: 15px;
+    background-color: darkorange;
 }
+span{
+    margin-top: 25px;
+    
 
+}
+div .row{
+    background-color: white;
+}
 .page-header{
-    background-color: #ff9400;
+    background-color: deeppink;
     margin-top: 0;
     padding: 20px 20px 20px 40px;
 
